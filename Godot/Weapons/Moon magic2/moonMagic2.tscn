@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dfykoufst14co"]
+
+[ext_resource type="Script" path="res://Weapons/Moon magic2/MoonMagic2.cs" id="1_gbqpp"]
+
+[node name="MoonMagic2" type="CharacterBody2D"]
+collision_mask = 2
+script = ExtResource("1_gbqpp")

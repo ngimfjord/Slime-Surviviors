@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://cvbnt40tdh6o6"]
+
+[ext_resource type="Script" path="res://Weapons/Fire magic2/FireMagic2.cs" id="1_0lsri"]
+[ext_resource type="Texture2D" uid="uid://7q6yag3coni0" path="res://Weapons/Fire magic2/FireRing.png" id="2_r3cl6"]
+
+[node name="FireMagic2" type="CharacterBody2D"]
+script = ExtResource("1_0lsri")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_r3cl6")

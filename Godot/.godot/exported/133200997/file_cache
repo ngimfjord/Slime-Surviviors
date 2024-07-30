@@ -1,0 +1,20 @@
+res://Game/menu.tscn::11e999a5c1c323d2543e54a95f417f73::1722346046::res://.godot/exported/133200997/export-4b1cbd554193558d4793f8c269ea3325-menu.scn
+res://Game/game.tscn::f743ab661408a48116394be3004feb16::1722346047::res://.godot/exported/133200997/export-8f3dd55d8784d9346a9c65607a93bf7b-game.scn
+res://Coin/coin.tscn::a7342609d39d9e5cb847bcbcbb2e717a::1722235192::res://.godot/exported/133200997/export-30130db486e5864fd9aad2a85eeeb2cb-coin.scn
+res://Debug/crecent.tscn::e8d13d1f79949ac96b83acfa00fcf5ff::1722224155::res://.godot/exported/133200997/export-a892aaa39c098ddd2f8093bf1fc55fb5-crecent.scn
+res://Debug/testinglevel.tscn::58406c2bfd7a43d4830cfd831d5cf726::1722346046::res://.godot/exported/133200997/export-9d763e8c08035aa0740dfd94a7770181-testinglevel.scn
+res://Player/player.tscn::54d0dc7f90fb5d0be76dace9038e49a1::1722346047::res://.godot/exported/133200997/export-d267b47f7e81a3258979164d56d0d9c2-player.scn
+res://Player/upgradeOption.tscn::65d2ddb9054a9d9fb7c1ad49fd3da816::1722253778::res://.godot/exported/133200997/export-a9a91c5a1bcaadd20c01bbd034f63d86-upgradeOption.scn
+res://Slime/slime.tscn::1dc206df5c68cfac577a12fc9383c63f::1722346047::res://.godot/exported/133200997/export-1d09fe5be06d4485884f8f888454e775-slime.scn
+res://Weapons/Fire magic1/fire.tscn::30d96bfac38d2a29d10f6a3304c8a95d::1722346046::res://.godot/exported/133200997/export-42058a710e74d682b61ffc46e1065572-fire.scn
+res://Weapons/Fire magic1/fireMagic1.tscn::7c79f41e5bdaa5bd4c811e6777e5598d::1722253779::res://.godot/exported/133200997/export-f37c46b5ad412a043ee24648e22f7e1f-fireMagic1.scn
+res://Weapons/Fire magic2/fire.tscn::ac5662024af7e8e57ff730e7bb5ddeaa::1722253779::res://.godot/exported/133200997/export-c844525c324163b543e3ba1ab182f61f-fire.scn
+res://Weapons/Fire magic2/fireMagic2.tscn::b51e6a55b4c2c348e0dc4fddefc58792::1722253779::res://.godot/exported/133200997/export-b628bdd43830466b87c7ee36ff1c7a38-fireMagic2.scn
+res://Weapons/Grenade1/grenade1.tscn::bf5f9dd515a2fd40937fda1a96a373d3::1722346046::res://.godot/exported/133200997/export-7543aba9bd5dae81d37843c9cdbe20eb-grenade1.scn
+res://Weapons/Grenade1/grenade.tscn::7cc64c500165e0e4b662687b42112aee::1722255300::res://.godot/exported/133200997/export-0916c9eb0f32850bb2c03d91ecc70427-grenade.scn
+res://Weapons/Grenade2/Grenade2.tscn::bab014b2d52afcb699acd4f8e7d99647::1722346046::res://.godot/exported/133200997/export-cc80c6f8477732cc528062f84ecc5e66-Grenade2.scn
+res://Weapons/Moon magic1/crescent.tscn::bde13ca93854b6acb769da198245dbcb::1722253779::res://.godot/exported/133200997/export-e84f77830c3c3bb9d39fb3577900eb39-crescent.scn
+res://Weapons/Moon magic1/moonMagic1.tscn::60274ea311eb761d821155e58cb66b11::1722235193::res://.godot/exported/133200997/export-59106681623a45125d00b13c89ec2c01-moonMagic1.scn
+res://Weapons/Moon magic2/crescentMoon.tscn::196f3fa578e44ec704f578c10f2d8aee::1722253778::res://.godot/exported/133200997/export-5bc6abfc5f8a772f1e432ab1a751e9d0-crescentMoon.scn
+res://Weapons/Moon magic2/moonMagic2.tscn::9290d8b77cf0aaa04b645fad78f3df88::1722253779::res://.godot/exported/133200997/export-3aab724929aa885b10c1c5c14f9f9032-moonMagic2.scn
+res://HitpointsBar/hitpointsbar.tscn::affd7f9a7588c9fabdf7d38ada013e55::1722235192::res://.godot/exported/133200997/export-97533c0e42f14706acff18f00f9ffa4c-hitpointsbar.scn

@@ -1,0 +1,41 @@
+[gd_scene load_steps=2 format=3 uid="uid://b23gpiu4iai5r"]
+
+[ext_resource type="Script" path="res://Player/UpgradeOption.cs" id="1_u0b3n"]
+
+[node name="UpgradeOption" type="ColorRect"]
+custom_minimum_size = Vector2(260, 80)
+offset_right = 260.0
+offset_bottom = 80.0
+color = Color(0.699653, 0.699653, 0.699653, 1)
+script = ExtResource("1_u0b3n")
+
+[node name="Name" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_top = -23.0
+offset_bottom = 11.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "Moon Magic"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Level" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_top = -11.5
+offset_bottom = 23.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Level 2"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="mouse_entered" from="." to="." method="OnMouseEntered"]
+[connection signal="mouse_exited" from="." to="." method="OnMouseExited"]

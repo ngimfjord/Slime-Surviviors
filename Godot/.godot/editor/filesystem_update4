@@ -1,0 +1,39 @@
+res://Debug/testinglevel.tscn
+res://Coin/Coin.cs
+res://Weapons/Moon magic2/crescentMoon.tscn
+res://Player/upgradeOption.tscn
+res://Weapons/Fire magic1/fireMagic1.tscn
+res://Weapons/Fire magic1/fire.tscn
+res://Weapons/Moon magic1/crescent.tscn
+res://Weapons/Moon magic2/moonMagic2.tscn
+res://HitpointsBar/HitpointsBar.cs
+res://Weapons/Moon magic2/CrescentMoon.cs
+res://Player/UpgradeProgress.cs
+res://Weapons/Fire magic1/FireMagic1.cs
+res://Player/Arsenal.cs
+res://Weapons/Moon magic1/MoonMagic1.cs
+res://Player/CoinLabel.cs
+res://Player/Camera.cs
+res://Weapons/Fire magic1/Fire.cs
+res://Weapons/Moon magic1/Crescent.cs
+res://Player/Player.cs
+res://Player/UpgradeOption.cs
+res://Slime/Slime.cs
+res://Debug/Testinglevel.cs
+res://Weapons/Moon magic2/MoonMagic2.cs
+res://Weapons/Fire magic2/fireMagic2.tscn
+res://Weapons/Fire magic2/fire.tscn
+res://Weapons/Fire magic2/FireMagic2.cs
+res://Weapons/Grenade1/grenade.tscn
+res://Weapons/Grenade1/Grenade.cs
+res://Weapons/Grenade1/grenade1.tscn
+res://Weapons/Grenade1/Grenade1.cs
+res://Weapons/Grenade2/Grenade2.cs
+res://Weapons/Grenade2/Grenade2.tscn
+res://Game/menu.tscn
+res://Game/Menu.cs
+res://Game/game.tscn
+res://Game/Game.cs
+res://Slime/slime.tscn
+res://Player/TimeLabel.cs
+res://Player/player.tscn

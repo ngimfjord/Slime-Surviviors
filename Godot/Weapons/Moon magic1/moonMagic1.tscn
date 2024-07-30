@@ -1,0 +1,82 @@
+[gd_scene load_steps=12 format=3 uid="uid://dfh6c1v2rcmxu"]
+
+[ext_resource type="Script" path="res://Weapons/Moon magic1/MoonMagic1.cs" id="1_i3cnx"]
+[ext_resource type="Texture2D" uid="uid://bplc04krf4l63" path="res://Weapons/Moon magic1/Crecent.png" id="2_nij5l"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p4qyy"]
+atlas = ExtResource("2_nij5l")
+region = Rect2(0, 4, 4, 4)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1paux"]
+atlas = ExtResource("2_nij5l")
+region = Rect2(4, 4, 4, 4)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3abv1"]
+atlas = ExtResource("2_nij5l")
+region = Rect2(8, 4, 4, 4)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_810v4"]
+atlas = ExtResource("2_nij5l")
+region = Rect2(12, 4, 4, 4)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nup7g"]
+atlas = ExtResource("2_nij5l")
+region = Rect2(0, 0, 4, 4)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lsmn6"]
+atlas = ExtResource("2_nij5l")
+region = Rect2(4, 0, 4, 4)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5k68j"]
+atlas = ExtResource("2_nij5l")
+region = Rect2(8, 0, 4, 4)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_s6d6t"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p4qyy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1paux")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3abv1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_810v4")
+}],
+"loop": true,
+"name": &"colliding",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nup7g")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lsmn6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5k68j")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mb8af"]
+size = Vector2(16, 8)
+
+[node name="MoonMagic1" type="CharacterBody2D"]
+collision_mask = 2
+script = ExtResource("1_i3cnx")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+rotation = 1.5708
+scale = Vector2(4, 4)
+sprite_frames = SubResource("SpriteFrames_s6d6t")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+rotation = 1.5708
+shape = SubResource("RectangleShape2D_mb8af")

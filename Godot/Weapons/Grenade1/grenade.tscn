@@ -1,0 +1,54 @@
+[gd_scene load_steps=9 format=3 uid="uid://cskysy1vhqxdh"]
+
+[ext_resource type="Script" path="res://Weapons/Grenade1/Grenade.cs" id="1_aa57n"]
+[ext_resource type="Texture2D" uid="uid://df0wkskr6to4h" path="res://Weapons/Grenade1/Grenade.png" id="1_glxna"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c5bts"]
+atlas = ExtResource("1_glxna")
+region = Rect2(0, 0, 4, 4)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vjsxu"]
+atlas = ExtResource("1_glxna")
+region = Rect2(4, 0, 4, 4)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rlx5k"]
+atlas = ExtResource("1_glxna")
+region = Rect2(8, 0, 4, 4)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_05gkv"]
+atlas = ExtResource("1_glxna")
+region = Rect2(12, 0, 4, 4)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_4bfqw"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c5bts")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vjsxu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rlx5k")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_05gkv")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1pp11"]
+size = Vector2(16, 16)
+
+[node name="Grenade" type="CharacterBody2D"]
+collision_mask = 2
+script = ExtResource("1_aa57n")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(4, 4)
+sprite_frames = SubResource("SpriteFrames_4bfqw")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_1pp11")

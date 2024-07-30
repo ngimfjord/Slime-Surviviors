@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bm4tutxtgshll"]
+
+[ext_resource type="Script" path="res://Weapons/Grenade2/Grenade2.cs" id="1_e8541"]
+
+[node name="Grenade2" type="CharacterBody2D"]
+script = ExtResource("1_e8541")

@@ -1,0 +1,48 @@
+[gd_scene load_steps=8 format=3 uid="uid://p85tg72nycqo"]
+
+[ext_resource type="Script" path="res://Weapons/Moon magic1/Crescent.cs" id="1_kf8oj"]
+[ext_resource type="Texture2D" uid="uid://bplc04krf4l63" path="res://Weapons/Moon magic1/Crecent.png" id="1_m24pn"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8oudt"]
+atlas = ExtResource("1_m24pn")
+region = Rect2(0, 0, 4, 4)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g4xy0"]
+atlas = ExtResource("1_m24pn")
+region = Rect2(4, 0, 4, 4)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1e6pc"]
+atlas = ExtResource("1_m24pn")
+region = Rect2(8, 0, 4, 4)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_k381h"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8oudt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g4xy0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1e6pc")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tjm8h"]
+size = Vector2(8, 16)
+
+[node name="Crescent" type="CharacterBody2D"]
+collision_mask = 2
+script = ExtResource("1_kf8oj")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+rotation = 1.5708
+scale = Vector2(4, 4)
+sprite_frames = SubResource("SpriteFrames_k381h")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_tjm8h")

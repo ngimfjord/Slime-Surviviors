@@ -1,0 +1,87 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1722345648
+export_presets.cfg::TextFile::-1::1722343196::0::1::::<><>::
+icon.svg::CompressedTexture2D::1208916591820132006::1721362772::1721362788::1::::<><>::
+score.txt::TextFile::-1::1722342875::0::1::::<><>::
+::res://Coin/::1722293208
+Coin.cs::CSharpScript::-1::1722293208::0::1::::<>Area2D<>::
+Coin.png::CompressedTexture2D::8917648101845613326::1719586113::1722198091::1::::<><>::
+coin.tscn::PackedScene::5451016070615609907::1722235192::0::1::::<><>::res://Coin/Coin.cs<>uid://d0b1mjyuvk21o::::res://Coin/Coin.png
+::res://data_Survive the slime_windows_x86_64/::1722343384
+Survive the slime.deps.json::JSON::-1::1722343378::0::1::::<><>::
+Survive the slime.runtimeconfig.json::JSON::-1::1722343378::0::1::::<><>::
+::res://Debug/::1722345890
+crecent.tscn::PackedScene::2226358353056441602::1722224155::0::1::::<><>::res://Weapons/Moon magic1/MoonMagic1.cs<>uid://bplc04krf4l63::::res://Weapons/Moon magic1/Crecent.png
+Testinglevel.cs::CSharpScript::-1::1722255843::0::1::::<>Node2D<>::
+testinglevel.tscn::PackedScene::4342701595613972069::1722345890::0::1::::<><>::res://Debug/Testinglevel.cs
+::res://Game/::1722345891
+menu.tscn::PackedScene::6523080299388404327::1722345891::0::1::::<><>::res://Game/Menu.cs
+Menu.cs::CSharpScript::-1::1722343153::0::1::::<>Control<>::
+Game.cs::CSharpScript::-1::1722342236::0::1::::<>Node2D<>::
+game.tscn::PackedScene::4538832733242217049::1722345891::0::1::::<><>::res://Game/Game.cs
+::res://HitpointsBar/::1722253039
+health0.png::CompressedTexture2D::3617220377890746387::1721319936::1721378774::1::::<><>::
+health25.png::CompressedTexture2D::11032651367162727::1721319869::1721378774::1::::<><>::
+health50.png::CompressedTexture2D::3570198309991121302::1721319881::1721378774::1::::<><>::
+health75.png::CompressedTexture2D::6985188748742073712::1721319906::1721378774::1::::<><>::
+health100.png::CompressedTexture2D::3502343924410120530::1721319920::1721378774::1::::<><>::
+HitpointsBar.cs::CSharpScript::-1::1722253039::0::1::::<>AnimatedSprite2D<>::
+HitpointsBar.tscn::PackedScene::1352223137931413951::1722235192::0::1::::<><>::uid://brshddmhp4cj8::::res://HitpointsBar/health0.png<>uid://flyak04a2pn::::res://HitpointsBar/health25.png<>uid://bq4ov6drpifdm::::res://HitpointsBar/health50.png<>uid://c6rxbkdf1miou::::res://HitpointsBar/health75.png<>uid://bp5tdfg5x2wso::::res://HitpointsBar/health100.png<>res://HitpointsBar/HitpointsBar.cs
+::res://Output/::1722343705
+score.txt::TextFile::-1::1722343705::0::1::::<><>::
+::res://Output/data_Survive the slime_windows_x86_64/::1722343655
+Survive the slime.deps.json::JSON::-1::1722343649::0::1::::<><>::
+Survive the slime.runtimeconfig.json::JSON::-1::1722343649::0::1::::<><>::
+::res://Player/::1722345891
+Arsenal.cs::CSharpScript::-1::1722293208::0::1::::<>Node2D<>::
+Camera.cs::CSharpScript::-1::1722341731::0::1::::<>Camera2D<>::
+CoinLabel.cs::CSharpScript::-1::1722253038::0::1::::<>Label<>::
+Player.cs::CSharpScript::-1::1722253039::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::2808601162707157199::1722345891::0::1::::<><>::res://Player/Player.cs<>uid://co4bkf3bx53l8::::res://Player/Spritesheet.png<>res://Player/Camera.cs<>res://Player/Arsenal.cs<>res://Player/CoinLabel.cs<>res://Player/UpgradeProgress.cs<>res://Player/TimeLabel.cs
+TimeLabel.cs::CSharpScript::-1::1722337078::0::1::::<>Label<>::
+Spritesheet.png::CompressedTexture2D::5815431014066861831::1719584886::1721363093::1::::<><>::
+UpgradeOption.cs::CSharpScript::-1::1722272631::0::1::::<>ColorRect<>::
+upgradeOption.tscn::PackedScene::4339713580310039117::1722253778::0::1::::<><>::res://Player/UpgradeOption.cs
+UpgradeProgress.cs::CSharpScript::-1::1722253039::0::1::::<>ProgressBar<>::
+::res://Slime/::1722345891
+Slime.cs::CSharpScript::-1::1722342403::0::1::::<>CharacterBody2D<>::
+slime.tscn::PackedScene::8640328713384394873::1722345891::0::1::::<><>::res://Slime/Slime.cs<>uid://llrk6exwol3l::::res://Slime/SlimeSprites.png
+SlimeSprites.png::CompressedTexture2D::795837117607142815::1722290955::1722290962::1::::<><>::
+Spritesheet.png::CompressedTexture2D::1786795854300128487::1719581248::1721365606::1::::<><>::
+::res://Weapons/::1722295791
+::res://Weapons/Fire magic1/::1722345891
+Fire.cs::CSharpScript::-1::1722270519::0::1::::<>Area2D<>::
+Fire.png::CompressedTexture2D::4396137079020059399::1722231573::1722231576::1::::<><>::
+fire.tscn::PackedScene::4228832702433082963::1722345891::0::1::::<><>::res://Weapons/Fire magic1/Fire.cs<>uid://b3vr0aep58g2r::::res://Weapons/Fire magic2/Fire.png
+FireMagic1.cs::CSharpScript::-1::1722341718::0::1::::<>CharacterBody2D<>::
+fireMagic1.tscn::PackedScene::6249696275193957119::1722253779::0::1::::<><>::res://Weapons/Fire magic1/FireMagic1.cs<>uid://7q6yag3coni0::::res://Weapons/Fire magic1/FireRing.png
+FireRing.png::CompressedTexture2D::2280998136855727213::1722224450::1722224459::1::::<><>::
+::res://Weapons/Fire magic2/::1722257458
+Fire.png::CompressedTexture2D::4396137079020059399::1722231573::1722252213::1::::<><>::
+fire.tscn::PackedScene::3457379968564119947::1722253779::0::1::::<><>::uid://b3vr0aep58g2r::::res://Weapons/Fire magic2/Fire.png
+FireMagic2.cs::CSharpScript::-1::1722270640::0::1::::<>CharacterBody2D<>::
+fireMagic2.tscn::PackedScene::6249696275193957119::1722253779::0::1::::<><>::res://Weapons/Fire magic2/FireMagic2.cs<>uid://7q6yag3coni0::::res://Weapons/Fire magic2/FireRing.png
+FireRing.png::CompressedTexture2D::2280998136855727213::1722224450::1722252213::1::::<><>::
+::res://Weapons/Fire magic3/::1722296004
+FireMagic3.cs::CSharpScript::-1::1722296182::0::1::::<><>::
+::res://Weapons/Grenade1/::1722345890
+Grenade1.cs::CSharpScript::-1::1722270877::0::1::::<>CharacterBody2D<>::
+grenade1.tscn::PackedScene::6292963689638956353::1722345890::0::1::::<><>::res://Weapons/Grenade1/Grenade1.cs
+Grenade.cs::CSharpScript::-1::1722256955::0::1::::<>CharacterBody2D<>::
+Grenade.png::CompressedTexture2D::7563170306583809985::1722254314::1722254344::1::::<><>::
+grenade.tscn::PackedScene::6058374984217538137::1722255300::0::1::::<><>::res://Weapons/Grenade1/Grenade.cs<>uid://df0wkskr6to4h::::res://Weapons/Grenade1/Grenade.png
+::res://Weapons/Grenade2/::1722345891
+Grenade2.tscn::PackedScene::3289744135304045229::1722345891::0::1::::<><>::res://Weapons/Grenade2/Grenade2.cs
+Grenade2.cs::CSharpScript::-1::1722270881::0::1::::<>CharacterBody2D<>::
+::res://Weapons/Moon magic1/::1722253779
+Crecent.png::CompressedTexture2D::3462129111796835518::1721379701::1722164766::1::::<><>::
+Crescent.cs::CSharpScript::-1::1722253038::0::1::::<>CharacterBody2D<>::
+crescent.tscn::PackedScene::1122812926140562470::1722253779::0::1::::<><>::res://Weapons/Moon magic1/Crescent.cs<>uid://bplc04krf4l63::::res://Weapons/Moon magic1/Crecent.png
+MoonMagic1.cs::CSharpScript::-1::1722253039::0::1::::<>CharacterBody2D<>::
+moonMagic1.tscn::PackedScene::7526544111209017618::1722235193::0::1::::<><>::res://Weapons/Moon magic1/MoonMagic1.cs<>uid://bplc04krf4l63::::res://Weapons/Moon magic1/Crecent.png
+::res://Weapons/Moon magic2/::1722253779
+CrescentMoon.cs::CSharpScript::-1::1722253038::0::1::::<>CharacterBody2D<>::
+crescentMoon.tscn::PackedScene::5507808530369054983::1722253778::0::1::::<><>::res://Weapons/Moon magic2/CrescentMoon.cs<>uid://c572vhoscw3gx::::res://Weapons/Moon magic2/Moon.png
+Moon.png::CompressedTexture2D::6946244015245904227::1722205661::1722205665::1::::<><>::
+MoonMagic2.cs::CSharpScript::-1::1722253039::0::1::::<>CharacterBody2D<>::
+moonMagic2.tscn::PackedScene::7560384565444541382::1722253779::0::1::::<><>::res://Weapons/Moon magic2/MoonMagic2.cs
